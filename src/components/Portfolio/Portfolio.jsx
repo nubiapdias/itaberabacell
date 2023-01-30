@@ -5,6 +5,8 @@ import "swiper/css";
 import instagram from "../../img/instagram.png"
 
 import whatsapp from "../../img/whatsapp.png";
+import facebook from "../../img/facebook2.png";
+import fone from "../../img/telefone.png";
 
 import { themeContext } from "../../Context";
 
@@ -32,6 +34,12 @@ const Portfolio = () => {
         </SwiperSlide>
         <SwiperSlide>
           <img src={whatsapp} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={facebook} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={fone} alt="" />
         </SwiperSlide>
       </Swiper>
     </div>
