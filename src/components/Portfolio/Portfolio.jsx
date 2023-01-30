@@ -33,12 +33,6 @@ const Portfolio = () => {
         <SwiperSlide>
           <img src={whatsapp} alt="" />
         </SwiperSlide>
-        <SwiperSlide>
-          <img src={instagram} alt="" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={whatsapp} alt="" />
-        </SwiperSlide>
       </Swiper>
     </div>
   );
